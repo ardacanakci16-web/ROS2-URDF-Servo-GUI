@@ -1,0 +1,7 @@
+[console_scripts]
+channel_node = simple_py_pkg.channel_node:main
+counter_node = simple_py_pkg.counter_node:main
+py_node = simple_py_pkg.simple_py_node:main
+remote_controller_node = simple_py_pkg.remote_controller:main
+television_node = simple_py_pkg.television:main
+

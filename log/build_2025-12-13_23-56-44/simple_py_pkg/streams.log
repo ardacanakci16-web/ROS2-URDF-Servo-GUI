@@ -1,0 +1,20 @@
+[0.386s] Invoking command in '/home/arda/ros2_ws/build/simple_py_pkg': PYTHONPATH=/home/arda/ros2_ws/build/simple_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arda/ros2_ws/install/simple_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arda/ros2_ws/build/simple_py_pkg/build --no-deps symlink_data --force
+[0.553s] running develop
+[0.643s] running egg_info
+[0.643s] writing simple_py_pkg.egg-info/PKG-INFO
+[0.644s] writing dependency_links to simple_py_pkg.egg-info/dependency_links.txt
+[0.644s] writing entry points to simple_py_pkg.egg-info/entry_points.txt
+[0.644s] writing requirements to simple_py_pkg.egg-info/requires.txt
+[0.644s] writing top-level names to simple_py_pkg.egg-info/top_level.txt
+[0.645s] reading manifest file 'simple_py_pkg.egg-info/SOURCES.txt'
+[0.645s] writing manifest file 'simple_py_pkg.egg-info/SOURCES.txt'
+[0.646s] running build_ext
+[0.647s] Creating /home/arda/ros2_ws/install/simple_py_pkg/lib/python3.10/site-packages/simple-py-pkg.egg-link (link to .)
+[0.647s] Installing counter_node script to /home/arda/ros2_ws/install/simple_py_pkg/lib/simple_py_pkg
+[0.647s] Installing py_node script to /home/arda/ros2_ws/install/simple_py_pkg/lib/simple_py_pkg
+[0.648s] 
+[0.648s] Installed /home/arda/ros2_ws/build/simple_py_pkg
+[0.648s] running symlink_data
+[0.648s] symbolically linking /home/arda/ros2_ws/build/simple_py_pkg/resource/simple_py_pkg -> /home/arda/ros2_ws/install/simple_py_pkg/share/ament_index/resource_index/packages
+[0.648s] symbolically linking /home/arda/ros2_ws/build/simple_py_pkg/package.xml -> /home/arda/ros2_ws/install/simple_py_pkg/share/simple_py_pkg
+[0.669s] Invoked command in '/home/arda/ros2_ws/build/simple_py_pkg' returned '0': PYTHONPATH=/home/arda/ros2_ws/build/simple_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arda/ros2_ws/install/simple_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arda/ros2_ws/build/simple_py_pkg/build --no-deps symlink_data --force
