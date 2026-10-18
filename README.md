@@ -1,4 +1,4 @@
-# Tetra_Odev: ROS 2 Haberleşme Düğümleri, URDF Robot Modelleme ve Arduino Seri Port Tabanlı Tkinter Servo Kontrol Paneli
+# ROS2-URDF-Servo-GUI: ROS 2 Haberleşme Düğümleri, URDF Robot Modelleme ve Arduino Seri Port Tabanlı Tkinter Servo Kontrol Paneli
 
 [![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![ROS 2](https://img.shields.io/badge/ROS%202-Humble%20%7C%20Kilted-22314E.svg)](https://docs.ros.org/)
@@ -29,7 +29,7 @@ Bu proje, ROS 2 orta katmanında düğümler arası mesajlaşma (`television`, `
 ### Sistem mimarisi
 
 <div align="center">
-  <img src="assets/architecture.png" alt="Tetra_Odev ROS 2 ve Servo Kontrol Sistem Mimarisi" width="760"/>
+  <img src="assets/architecture.png" alt="ROS2-URDF-Servo-GUI ROS 2 ve Servo Kontrol Sistem Mimarisi" width="760"/>
 </div>
 
 ---
@@ -71,8 +71,8 @@ URDF modelinde tanımlanan `<joint type="revolute">` alt/üst açı limitlerinin
 ### Adımlar
 
 ```bash
-git clone https://github.com/ardacanakci16-web/Tetra_Odev.git
-cd Tetra_Odev
+git clone https://github.com/ardacanakci16-web/ROS2-URDF-Servo-GUI.git
+cd ROS2-URDF-Servo-GUI
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 python scripts/check_install.py
@@ -115,7 +115,7 @@ Servo Acisi: 90° | UART Durumu: AKTIF | Paket Kaybi: %0.0
 ## Proje yapısı
 
 ```text
-Tetra_Odev/
+ROS2-URDF-Servo-GUI/
 ├── assets/                  # README görselleri (demo.gif, architecture.png)
 ├── configs/                 # Seri port ve ROS 2 düğüm ayarları
 ├── data/                    # Örnek gecikme ve açı telemetri kayıtları
