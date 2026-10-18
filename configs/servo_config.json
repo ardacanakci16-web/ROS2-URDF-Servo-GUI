@@ -1,0 +1,7 @@
+{
+  "serial_port": "/dev/ttyUSB0",
+  "baudrate": 115200,
+  "topic": "/servo_aci",
+  "min_angle": 0,
+  "max_angle": 180
+}
